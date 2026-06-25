@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="electricity.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Payment card checkout</title>  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  
+  
+      <link rel="stylesheet" href="pay/css/style.css">
+
+  
+</head>
+
+<body>
+<form id="form123" runat="server">
+  <div class="tips">
+Payment card number: (4) VISA, (51 -> 55) MasterCard, (36-38-39) DinersClub, (34-37) American Express, (65) Discover, (5019) dankort
+</div>
+
+<div class="container">
+  <div class="col1">
+    <div class="card">
+      <div class="front">
+        <div class="type">
+          <img class="bankid"/>
+        </div>
+        <span class="chip"></span>
+        <span class="card_number">&#x25CF;&#x25CF;&#x25CF;&#x25CF; &#x25CF;&#x25CF;&#x25CF;&#x25CF; &#x25CF;&#x25CF;&#x25CF;&#x25CF; &#x25CF;&#x25CF;&#x25CF;&#x25CF; </span>
+        <div class="date"><span class="date_value">MM / YYYY</span></div>
+        <span class="fullname">FULL NAME</span>
+      </div>
+      <div class="back">
+        <div class="magnetic"></div>
+        <div class="bar"></div>
+        <span class="seccode">&#x25CF;&#x25CF;&#x25CF;</span>
+        <span class="chip"></span><span class="disclaimer">This card is property of Random Bank of Random corporation. <br> If found please return to Random Bank of Random corporation - 21968 Paris, Verdi Street, 34 </span>
+      </div>
+    </div>
+  </div>
+  <div class="col2">
+    <label>Card Number</label>
+ <%--   <input class="number" type="text" ng-model="ncard" maxlength="19" onkeypress='return event.charCode >= 48 && event.charCode <= 57' required=""/>--%>
+      <asp:TextBox ID="TextBox1"  ng-model="ncard" maxlength="19" class="number" onkeypress='return event.charCode >= 48 && event.charCode <= 57' runat="server"></asp:TextBox>
+      <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Card Number Can't be Blank" ControlToValidate="TextBox1" ValidationGroup="A"></asp:RequiredFieldValidator>
+    <label>Cardholder name</label>
+   <%-- <input class="inputname" type="text" placeholder="" required=""/>--%>
+      <asp:TextBox ID="TextBox2" class="inputname" runat="server"></asp:TextBox>
+      <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Card holder Name Can't be Blank" ControlToValidate="TextBox2" ValidationGroup="A"></asp:RequiredFieldValidator>
+    <label>Expiry date</label>
+   <%-- <input class="expire" type="text" placeholder="MM / YYYY" required=""/>--%>
+      <asp:TextBox ID="TextBox3" class="expire" runat="server" TextMode="SingleLine" ForeColor="Red"></asp:TextBox>
+      <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="Expiry Month/Year Can't be Blank" ControlToValidate="TextBox3" ValidationGroup="A"></asp:RequiredFieldValidator>
+    <label>Security Number</label>
+ <%--   <input class="ccv" type="text" placeholder="CVC" maxlength="3" onkeypress='return event.charCode >= 48 && event.charCode <= 57' required=""/>
+   --%><asp:TextBox ID="TextBox4" class="ccv"  placeholder="CVC" maxlength="3" onkeypress='return event.charCode >= 48 && event.charCode <= 57' runat="server"></asp:TextBox>
+   <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ValidationGroup="A" ErrorMessage="CVV Can't be Blank" ControlToValidate="TextBox4"></asp:RequiredFieldValidator>
+    <asp:Button ID="Button1"  class="buy" runat="server" ValidationGroup="A" Text="Process Payment" 
+          onclick="Button1_Click1" />
+          <asp:Button ID="BtnCancel"  class="buy" runat="server"
+          Text="Cancel Payment" onclick="BtnCancel_Click" 
+           />
+         <%--<i class="material-icons">lock</i> Pay --.-- €--%>
+   <%-- <button class="buy">--%>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+  
+
+    <script src="pay/js/index.js"></script>
+
+
+ <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder> 
+        
+ </form>
+</body>
+
+</html>
+
+ 

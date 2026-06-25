@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="electricity.add">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAQAKIKAABgAEAACAAAAQAAgAAKAAEBAAAABEMgAgE=</HashCode>
+      <FileName>add.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="electricity.admin">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>admin.Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="electricity.AdminLog">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>AdminLog.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="electricity.AdminLogin">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAIAAAQAAAAAgBAAAQQBAAAAAAAAIAAAA=</HashCode>
+      <FileName>AdminLogin.Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="electricity.Bills">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAABAIAAAAAAAEAAAAAAAAAGAAAAAAUIAAAA=</HashCode>
+      <FileName>Bills.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="electricity.common">
+    <Position X="5.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAABAQAgAABAQAAAAAAAQAAAAAAAAAAAAg=</HashCode>
+      <FileName>common.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="electricity.Customer">
+    <Position X="11" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAKIoEABgIEAACAAAkAAAgAAYAgEBBAAABEMgAgE=</HashCode>
+      <FileName>Customer.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="electricity.CustomerHome">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>CustomerHome.Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="electricity.customerLogin">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAIAAAQAAAAAgRAAAQQAAAAAAAAAIAAAA=</HashCode>
+      <FileName>customerLogin.Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="electricity.CustomorLog">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>CustomorLog.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="electricity.find">
+    <Position X="9.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAQADAAAABAIAAQAAAAAAAQAAACAAEBAAAAAEIAAgA=</HashCode>
+      <FileName>find.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="electricity.index">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAAAAAIAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>index.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="electricity.landing">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>landing.Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="electricity.pay">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>pay.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="electricity.Site1">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAABgBAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Site1.Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="electricity.view">
+    <Position X="4" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAABBIAAEAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>view.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

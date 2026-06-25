@@ -1,0 +1,43 @@
+D:\electricity\bin\electricity.dll
+D:\electricity\bin\electricity.pdb
+D:\electricity\obj\Debug\electricity.csprojResolveAssemblyReference.cache
+D:\electricity\obj\Debug\electricity.dll
+D:\electricity\obj\Debug\electricity.pdb
+F:\Project copied on nov 24 2022\Projects\2023-24\AEB\electricity\electricity\bin\electricity.dll
+F:\Project copied on nov 24 2022\Projects\2023-24\AEB\electricity\electricity\bin\electricity.pdb
+F:\Project copied on nov 24 2022\Projects\2023-24\AEB\electricity\electricity\obj\Debug\electricity.csprojResolveAssemblyReference.cache
+F:\Project copied on nov 24 2022\Projects\2023-24\AEB\electricity\electricity\obj\Debug\electricity.dll
+F:\Project copied on nov 24 2022\Projects\2023-24\AEB\electricity\electricity\obj\Debug\electricity.pdb
+F:\Project copied on nov 24 2022\Projects\2023-24\AEB\AEB Simulation\electricity\electricity\bin\electricity.dll
+F:\Project copied on nov 24 2022\Projects\2023-24\AEB\AEB Simulation\electricity\electricity\bin\electricity.pdb
+F:\Project copied on nov 24 2022\Projects\2023-24\AEB\AEB Simulation\electricity\electricity\obj\Debug\electricity.csprojResolveAssemblyReference.cache
+F:\Project copied on nov 24 2022\Projects\2023-24\AEB\AEB Simulation\electricity\electricity\obj\Debug\electricity.dll
+F:\Project copied on nov 24 2022\Projects\2023-24\AEB\AEB Simulation\electricity\electricity\obj\Debug\electricity.pdb
+C:\project\electricity\electricity\bin\electricity.dll
+C:\project\electricity\electricity\bin\electricity.pdb
+C:\project\electricity\electricity\obj\Debug\electricity.csprojResolveAssemblyReference.cache
+C:\project\electricity\electricity\obj\Debug\electricity.dll
+C:\project\electricity\electricity\obj\Debug\electricity.pdb
+D:\Project\electricity\electricity\bin\electricity.dll
+D:\Project\electricity\electricity\bin\electricity.pdb
+D:\Project\electricity\electricity\obj\Debug\electricity.csprojResolveAssemblyReference.cache
+D:\Project\electricity\electricity\obj\Debug\electricity.dll
+D:\Project\electricity\electricity\obj\Debug\electricity.pdb
+C:\Users\Hp\electricity\bin\electricity.dll
+C:\Users\Hp\electricity\bin\electricity.pdb
+C:\Users\Hp\electricity\obj\Debug\electricity.csprojResolveAssemblyReference.cache
+C:\Users\Hp\electricity\obj\Debug\electricity.dll
+C:\Users\Hp\electricity\obj\Debug\electricity.pdb
+C:\Users\Hp\electricity\bin\M2Mqtt.dll
+C:\Users\Automated-Energy-Meter-System\electricity\bin\electricity.dll
+C:\Users\Automated-Energy-Meter-System\electricity\bin\electricity.pdb
+C:\Users\Automated-Energy-Meter-System\electricity\bin\M2Mqtt.dll
+C:\Users\Automated-Energy-Meter-System\electricity\obj\Debug\electricity.csprojResolveAssemblyReference.cache
+C:\Users\Automated-Energy-Meter-System\electricity\obj\Debug\electricity.dll
+C:\Users\Automated-Energy-Meter-System\electricity\obj\Debug\electricity.pdb
+D:\Automated-Energy-Meter-System\electricity\bin\electricity.dll
+D:\Automated-Energy-Meter-System\electricity\bin\electricity.pdb
+D:\Automated-Energy-Meter-System\electricity\bin\M2Mqtt.dll
+D:\Automated-Energy-Meter-System\electricity\obj\Debug\electricity.csprojResolveAssemblyReference.cache
+D:\Automated-Energy-Meter-System\electricity\obj\Debug\electricity.dll
+D:\Automated-Energy-Meter-System\electricity\obj\Debug\electricity.pdb

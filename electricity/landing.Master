@@ -1,0 +1,451 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="landing.master.cs" Inherits="electricity.landing" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="en">
+<!-- Head -->
+<head>
+<title>Online Electricity Customer Management</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" content="Electro Spike a Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+
+<!-- Flexslider-CSS --> <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="all">
+
+<!-- styles-CSS --><link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+<!--fonts-->
+<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+<!--//fonts-->
+
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
+
+<!-- scrolling script -->
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+            event.preventDefault();
+            $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+        });
+    });
+</script> 
+<!-- //scrolling script -->
+
+</head>
+<!-- //Head -->
+
+<body>
+<!-- TOP HEADER -->
+<%--<div class="top">
+	<div class="container">
+		<div class="top-left">
+			<ul>
+				<li><h5 align=center>Electricity Department Manager   </h5></li>
+				<li><i class="fa fa-phone" aria-hidden="true"></i> +055 3175 6666</li>
+			</ul>
+		</div>
+		<div class="top-middle">
+			<ul>
+				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+				<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+			</ul>
+		</div>
+		<div class="clearfix"></div>
+	</div> 
+</div> --%>
+<!-- //TOP HEADER -->
+
+<!-- nav -->
+<div class="header w3layouts">
+		<div class="container">
+			<nav class="navbar navbar-default">
+				<div class="navbar-header navbar-left">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<h1><a class="navbar-brand" href="index.html">Electricity customer Management</a></h1>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+					<nav class="cl-effect-13" id="cl-effect-13">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="index.aspx">Home</a></li>
+							<li><a href="#features" class="scroll">Features</a></li>
+							
+
+							
+							<li><a href="#contact" class="scroll">Contact</a></li>
+                            <li><a href="#" data-toggle="modal" data-target="#myModal1" >Login</a></li>
+						</ul>
+						
+					</nav>
+				
+				</div>
+			</nav>
+		</div>
+	</div>
+<!-- //nav -->
+
+<!-- banner -->
+<div class="w3l-banner-grids">
+	<div class="banner-dott">
+					<div class="container">
+						<div class="slider">
+							<div class="callbacks_container">
+								<ul class="rslides" id="slider4">
+									
+							
+								
+									<li>
+										<div class="w3l-banner-info">
+											<h3>manage your electricity bill on the go</h3>
+											<p>Pay Online</p>
+											<h3>Get Acess to your bills anywhere</h3>
+										
+										</div>
+									</li>
+								</ul>
+							</div>
+							<script src="js/responsiveslides.min.js"></script>
+							<script>
+							    // You can also use "$(window).load(function() {"
+							    $(function () {
+							        // Slideshow 4
+							        $("#slider4").responsiveSlides({
+							            auto: true,
+							            pager: true,
+							            nav: false,
+							            speed: 500,
+							            namespace: "callbacks",
+							            before: function () {
+							                $('.events').append("<li>before event fired.</li>");
+							            },
+							            after: function () {
+							                $('.events').append("<li>after event fired.</li>");
+							            }
+							        });
+
+							    });
+							 </script>
+							<!--banner Slider starts Here-->
+						</div>
+					</div>
+
+		</div>
+	<div class="banner-bottom">
+		<div class="col-md-6">
+			<div class="bannerbottomleft">
+				<h3>We Cant Choose to live without electricity.</h3>
+			</div>
+			<div class="col-md-6 bannerbottominnerleft">
+				<img src="images/about1.jpg" alt=" " />
+			</div>
+			<div class="col-md-6 bannerbottominnerright">
+				<p>Nuclear power will help provide the electricity that our growing economy needs without increasing emissions.
+				This is truly an environmentally responsible source of energy.</p>
+			</div>
+		<div class="clearfix"></div>
+		</div>
+		<div class="col-md-6">
+			<div class="bannerbottomright">
+				<h3>Electricity is really just organized lightning.</h3>
+			</div>
+			<div class="col-md-6 bannerbottominnerleft">
+				<img src="images/about2.jpg" alt=" " />
+			</div>
+			<div class="col-md-6 bannerbottominnerright">
+				<p>Nuclear power will help provide the electricity that our growing economy needs without increasing emissions.
+				This is truly an environmentally responsible source of energy.</p>
+			</div>
+		<div class="clearfix"></div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- //banner -->
+
+
+<!-- Features -->
+<div class="features" id="features">
+	<div class="container">
+	<h3 class="heading">Our Features</h3>
+		<!-- <div class="border1"> -->
+		<div class="border">
+			<div class="bordergrid1">
+				<div class="text">
+					<h4>Electricity</h4>
+					<p>Electricity is really just organized lightning</p>
+				</div>
+				<div class="icon">
+					<i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="bordergrid2">
+				<div class="col-md-9 text">
+					<h4>Nuclear power</h4>
+					<p>Nuclear power will help provide the electricity that our growing economy needs without increasing emissions.
+				</p>
+				</div>
+				<div class="col-md-3 icon">
+					<i class="fa fa-home" aria-hidden="true"></i>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="bordergrid5">
+				<div class="col-md-9 text">
+					<h4>Conservation</h4>
+					<p>Conservation of electricity is very essential in order to save resources/money.</p>
+				</div>
+				<div class="col-md-3 icon">
+					<i class="fa fa-plug" aria-hidden="true"></i>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="bordergrid3">
+				<div class="col-md-3 icon">
+					<i class="fa fa-power-off" aria-hidden="true"></i>
+				</div>
+				<div class="col-md-9 text">
+					<h4>Bill Maintainence</h4>
+					<p>This software has made your bill maintainence very very easy</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="bordergrid6">
+				<div class="col-md-3 icon">
+					<i class="fa fa-briefcase" aria-hidden="true"></i>
+				</div>
+				<div class="col-md-9 text">
+					<h4>Payments</h4>
+					<p>Pay your bills from your desired location(on the go)</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			
+			<div class="bulb">
+				<img src="images/light.png" alt="" />
+			</div>
+		</div>
+	<!-- </div> -->
+	</div>
+</div>
+<!-- //Features -->
+
+
+
+
+<!--count-->
+
+<!-- contact -->
+<div class="contact" id="contact">
+<!-- map section -->
+	<h3 class="heading">Contact us</h3>
+<div class="map">
+	<iframe src="https://www.google.com/maps/place/K+E+B+Office/@12.280399,76.6449568,17z/data=!3m1!4b1!4m5!3m4!1s0x3baf6ffa02ca27e9:0x2c90dedf8ec549aa!8m2!3d12.280399!4d76.6471455"></iframe>
+	<div class="contact-info">
+		<div class="col-md-6 address">
+			<h4><i class="fa fa-map-marker" aria-hidden="true"></i>Address</h4>
+			<p>ME</p>
+			<p>11th cross, 3rd Main</p>
+			<p>Mysore, India</p>
+			<div class="mail">
+				<h4><i class="fa fa-envelope" aria-hidden="true"></i>Email</h4>
+				<p><a href="mailto:info@example.com">info@example.com</a></p>
+				<p><a href="mailto:info@example.com">info@example1.com</a></p>
+			</div>
+		</div>
+		<div class="col-md-6 contact-address">
+			<h4><i class="fa fa-phone" aria-hidden="true"></i>contact electricians</h4>
+			<h5> House Wiring</h5>
+			<p>BHARATH SRIDHARAN | +917019399642</p>
+			<p>DARSHAN N | +919035833661</p>
+			<h5> technician </h5>
+			<p> RAJATH GIRIDHAR| +917795321272</p>
+			<h5> Electrical Functions</h5>
+			<p>MANASA BALAKRISHAN | +918197881232</p>
+            <p>Dr.SA | +918762356886</p>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>	
+
+</div>	
+
+<!-- map section -->
+<!-- contact -->
+
+<!-- footer -->
+	<div class="footer">
+		<div class="footer-top">
+			<div class="container">
+				<div class="footer-grids">
+				<div class="col-md-5 footer-grid">
+						<div class="footer-logo">
+							<h3>about us</h3>
+							<p>elecytricity customer management</p>
+							<p>Management Automated.</p>
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-2 footer-grid">
+						<h3>links</h3>
+						<ul>
+							<li> <a href="#features" class="scroll">features</a> </li>
+							
+							
+							<li> <a href="#contact" class="scroll">contact</a> </li>
+						</ul>
+					</div>
+					
+					<div class="clearfix"> </div>
+				</div>
+				<div class="wthree_copy_right">
+						<p>Copyright 2018 Automation of Electricity Energy Meter. All rights reserved |  <a href="#">Automation of Electricity Energy Meter</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- //footer -->
+
+
+<script type="text/javascript" src="js/numscroller-1.0.js"></script><!-- numscroller js file -->
+
+<!-- for-Testimonials -->
+			<!-- required-js-files-->
+							<link href="css/owl.carousel.css" rel="stylesheet">
+							    <script src="js/owl.carousel.js"></script>
+							        <script>
+							    $(document).ready(function() {
+							      $("#owl-demo").owlCarousel({
+							        items : 1,
+							        lazyLoad : true,
+							        autoPlay : true,
+							        navigation : false,
+							        navigationText :  false,
+							        pagination : true,
+							      });
+							    });
+							    </script>
+			<!--//required-js-files-->
+		<!-- //for-Testimonials -->
+
+<!--team-->
+<script type="text/javascript">
+    $(window).load(function () {
+        $("#flexiselDemo1").flexisel({
+            visibleItems: 4,
+            animationSpeed: 1000,
+            autoPlay: true,
+            autoPlaySpeed: 3000,
+            pauseOnHover: true,
+            enableResponsiveBreakpoints: true,
+            responsiveBreakpoints: {
+                portrait: {
+                    changePoint: 480,
+                    visibleItems: 1
+                },
+                landscape: {
+                    changePoint: 640,
+                    visibleItems: 2
+                },
+                tablet: {
+                    changePoint: 768,
+                    visibleItems: 3
+                }
+            }
+        });
+
+    });
+					</script>
+					<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+<!--team-->
+
+<!-- for pricing -->
+		<!-- Pricing-Popup-Box-JavaScript -->
+			<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+			<script>
+			    $(document).ready(function () {
+			        $('.popup-with-zoom-anim').magnificPopup({
+			            type: 'inline',
+			            fixedContentPos: false,
+			            fixedBgPos: true,
+			            overflowY: 'auto',
+			            closeBtnInside: true,
+			            preloader: false,
+			            midClick: true,
+			            removalDelay: 300,
+			            mainClass: 'my-mfp-zoom-in'
+			        });
+			    });
+			</script>
+<!-- //Pricing-Popup-Box-JavaScript -->
+
+<script src="js/SmoothScroll.min.js"></script><!-- smooth scrolling js file -->
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<!-- smooth scrolling -->
+	<script type="text/javascript">
+	    $(document).ready(function () {
+	        /*
+	        var defaults = {
+	        containerID: 'toTop', // fading element id
+	        containerHoverID: 'toTopHover', // fading element hover id
+	        scrollSpeed: 1200,
+	        easingType: 'linear' 
+	        };
+	        */
+	        $().UItoTop({ easingType: 'easeOutQuart' });
+	    });
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+
+		<!-- FlexSlider-JavaScript -->
+			<script defer src="js/jquery.flexslider.js"></script>
+			<script type="text/javascript">
+			    $(function () {
+			        SyntaxHighlighter.all();
+			    });
+			    $(window).load(function () {
+			        $('.flexslider').flexslider({
+			            animation: "slide",
+			            start: function (slider) {
+			                $('body').removeClass('loading');
+			            }
+			        });
+			    });
+			</script>
+		<!-- //FlexSlider-JavaScript -->
+<!-- //for pricing -->
+
+
+<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+ <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</body>
+</html>

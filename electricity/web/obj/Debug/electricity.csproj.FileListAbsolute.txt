@@ -1,0 +1,46 @@
+D:\my class\electricity\electricity\bin\electricity.dll
+D:\my class\electricity\electricity\bin\electricity.pdb
+D:\my class\electricity\electricity\obj\Debug\electricity.dll
+D:\my class\electricity\electricity\obj\Debug\electricity.pdb
+D:\my projects\electricity\electricity\bin\electricity.dll
+D:\my projects\electricity\electricity\bin\electricity.pdb
+D:\my projects\electricity\electricity\obj\Debug\electricity.dll
+D:\my projects\electricity\electricity\obj\Debug\electricity.pdb
+D:\my projects\electricity\electricity\obj\Debug\electricity.csprojResolveAssemblyReference.cache
+D:\my projects\electricity\electricity\bin\MySql.Data.dll
+D:\my projects\electricity\electricity\bin\MySql.Data.Entity.dll
+D:\my projects\electricity\electricity\bin\SendEmail_SMTP.dll
+E:\electricity\electricity\bin\electricity.dll
+E:\electricity\electricity\bin\electricity.pdb
+E:\electricity\electricity\obj\Debug\electricity.csprojResolveAssemblyReference.cache
+E:\electricity\electricity\obj\Debug\electricity.dll
+E:\electricity\electricity\obj\Debug\electricity.pdb
+G:\2017-2018\Energy meter\updated\electricity\electricity\bin\electricity.dll
+G:\2017-2018\Energy meter\updated\electricity\electricity\bin\electricity.pdb
+G:\2017-2018\Energy meter\updated\electricity\electricity\obj\Debug\electricity.csprojResolveAssemblyReference.cache
+G:\2017-2018\Energy meter\updated\electricity\electricity\obj\Debug\electricity.dll
+G:\2017-2018\Energy meter\updated\electricity\electricity\obj\Debug\electricity.pdb
+G:\2017-2018\Energy meter\tri-copy\updated\electricity\electricity\bin\electricity.dll
+G:\2017-2018\Energy meter\tri-copy\updated\electricity\electricity\bin\electricity.pdb
+G:\2017-2018\Energy meter\tri-copy\updated\electricity\electricity\obj\Debug\electricity.dll
+G:\2017-2018\Energy meter\tri-copy\updated\electricity\electricity\obj\Debug\electricity.pdb
+G:\2018-2019\AEB\electricity\bin\electricity.dll
+G:\2018-2019\AEB\electricity\bin\electricity.pdb
+G:\2018-2019\AEB\electricity\obj\Debug\electricity.csprojResolveAssemblyReference.cache
+G:\2018-2019\AEB\electricity\obj\Debug\electricity.dll
+G:\2018-2019\AEB\electricity\obj\Debug\electricity.pdb
+F:\2018-2019\AEB\2022 version\electricity\bin\electricity.dll
+F:\2018-2019\AEB\2022 version\electricity\bin\electricity.pdb
+F:\2018-2019\AEB\2022 version\electricity\obj\Debug\electricity.dll
+F:\2018-2019\AEB\2022 version\electricity\obj\Debug\electricity.pdb
+F:\2018-2019\AEB\2022 version\electricity\obj\Debug\electricity.csprojResolveAssemblyReference.cache
+D:\Project copied on nov 24 2022\Projects\2018-2019\AEB\2022 version\electricity\bin\electricity.dll
+D:\Project copied on nov 24 2022\Projects\2018-2019\AEB\2022 version\electricity\bin\electricity.pdb
+D:\Project copied on nov 24 2022\Projects\2018-2019\AEB\2022 version\electricity\obj\Debug\electricity.csprojResolveAssemblyReference.cache
+D:\Project copied on nov 24 2022\Projects\2018-2019\AEB\2022 version\electricity\obj\Debug\electricity.dll
+D:\Project copied on nov 24 2022\Projects\2018-2019\AEB\2022 version\electricity\obj\Debug\electricity.pdb
+D:\electricity\bin\electricity.dll
+D:\electricity\bin\electricity.pdb
+D:\electricity\obj\Debug\electricity.csprojResolveAssemblyReference.cache
+D:\electricity\obj\Debug\electricity.dll
+D:\electricity\obj\Debug\electricity.pdb
